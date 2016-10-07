@@ -1,0 +1,69 @@
+
+.root {
+    -fx-background-image: url("CoarseGrid.png");
+    -fx-background-repeat: repeat;
+    -fx-background-color:
+            linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+            linear-gradient(#20262b, #191d22),
+            radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+
+}
+
+.button {
+    -fx-background-color: #090a0c,
+    linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+    linear-gradient(#20262b, #191d22),
+    radial-gradient(center 50% 0%, radius 100%, rgba(114, 131, 148, 0.9), rgba(255, 255, 255, 0));
+    -fx-background-insets: 0, 1, 2, 0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0, 1, 1;
+}
+
+.button Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.08),
+    rgba(0, 0, 0, 0.8), #090a0c,
+    linear-gradient(#4a5661 0%, #1f2429 20%, #1f242a 100%),
+    linear-gradient(#3f4950, #23282e),
+    radial-gradient(center 50% 0%, radius 100%, rgba(135, 142, 148, 0.9), rgba(255, 255, 255, 0));
+}
+
+
+.text-field, .text-area {
+    -fx-background-color:
+            rgba(255, 255, 255, 0.3),
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) 50%),
+            rgb(218, 226, 224);
+    -fx-background-insets: 0 0 -1 0, 0, 1.5;
+    -fx-background-radius: 6, 5, 4;
+    -fx-padding: 6 10 4 10;
+    -fx-effect: innershadow( gaussian, rgba(0, 0, 0, 0.8), 5, 0, 0, 2 );
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+#numpad {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#7ebcea, #2f4b8f),
+            linear-gradient(#426ab7, #263e75),
+            linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 30;
+}
+
+#numpad:hover {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#57a3ea, #1d478f),
+            linear-gradient(#3562b7, #1c3875),
+            linear-gradient(#2954ab, #142d68);
+}
